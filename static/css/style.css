@@ -7,6 +7,7 @@ html {
   margin: 0;
   padding: 0;
   height: 100%;
+  width: 100%;
   font: normal 15px/1.5em 'Helvetica Neue', Helvetica, Arial, sans-serif;
   color: #404040;
   line-height: 1.75;
@@ -430,20 +431,23 @@ nav.navigation a.button {
 
 #single .note {
   white-space-collapse: preserve-breaks;
-  font-style: italic;
-  color: #bfb59d;
+  word-wrap: normal;
+  white-space: pre-line;
   font-size: 14px;
-  padding: 0px 20px;
   text-wrap: balance;
 }
 
+#single .note1 {
+  color: #bfb59d;
+  font-style: italic;
+  padding: 0px 20px;
+}
+
 #single .note2 {
-    border-top: 1px dashed #a3acd3;
-    padding-top: 1.8em;
-    white-space-collapse: preserve-breaks;
-    color: #7e85a4;
-    font-size: 14px;
-    text-wrap: balance;
+  font-style: normal;
+  border-top: 1px dashed #a3acd3;
+  padding-top: 1.8em;
+  color: #7e85a4;
 }
 
 #single .content {
