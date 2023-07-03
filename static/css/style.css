@@ -28,7 +28,7 @@ html[lang="zh"] {
 
 a {
   text-decoration: none;
-  color: #8ca0f5;
+  color: #abb7e9;
 }
 
 a:hover {
@@ -160,7 +160,7 @@ nav.navigation a {
   top: 8px;
   right: 6px;
   padding: 8px 12px;
-  color: #8ca0f5;
+  color: #abb7e9;
   font-size: 13px;
   line-height: 1.35;
   border-radius: 3px;
@@ -170,7 +170,7 @@ nav.navigation a:hover {
 }
 
 nav.navigation a.button {
-  background: #8ca0f5;
+  background: #abb7e9;
   color: #fff;
   margin-left: 12px;
 }
@@ -187,7 +187,7 @@ nav.navigation a.button {
     top: 8px;
     right: 6px;
     padding: 8px 8px;
-    color: #8ca0f5;
+    color: #abb7e9;
     font-size: 13px;
     line-height: 1.35;
     border-radius: 3px;
@@ -248,7 +248,7 @@ nav.navigation a.button {
   cursor: pointer;
 }
 #footer .split:hover path {
-  fill: #8ca0f5;
+  fill: #abb7e9;
   transition: 0.7s ease-out;
   cursor: pointer;;
 }
@@ -435,6 +435,15 @@ nav.navigation a.button {
   font-size: 14px;
   padding: 0px 20px;
   text-wrap: balance;
+}
+
+#single .note2 {
+    border-top: 1px dashed #a3acd3;
+    padding-top: 1.8em;
+    white-space-collapse: preserve-breaks;
+    color: #7e85a4;
+    font-size: 14px;
+    text-wrap: balance;
 }
 
 #single .content {
