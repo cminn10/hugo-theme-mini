@@ -32,6 +32,8 @@
   {{ partial "math.html" . }}
 {{ end }}
 
+<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+
 {{ if .OutputFormats.Get "RSS" }}
   {{ with .OutputFormats.Get "RSS" }}
     <link href="{{ .RelPermalink }}" rel="alternate" type="application/rss+xml" title="{{ $.Site.Title }}" />
